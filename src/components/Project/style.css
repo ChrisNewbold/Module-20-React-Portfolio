@@ -1,3 +1,6 @@
+.display {
+  margin-top: 400px;
+}
 .project-image {
   display: flex;
   flex-wrap: wrap;
