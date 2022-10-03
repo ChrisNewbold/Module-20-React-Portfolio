@@ -1,12 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header.js';
-// import Footer from './Footer.js';
+import Header from './components/Header';
+import Footer from './components/Footer/index';
+import React, { useState } from "react";
 
 function App() {
+  const pages = [
+    { name: "about" },
+    { name: "portfolio" },
+    { name: "resume" },
+    { name: "contact" },
+  ];
+
+  const [currentPage, setCurrentPage] = useState(pages[0]);
+
   return (
     <div className="App">
-      <Header />
+      <Header setCurrentPage={setCurrentPage} currentPage={currentPage} pages={pages} />
+      <Footer />
     </div>
   );
 }

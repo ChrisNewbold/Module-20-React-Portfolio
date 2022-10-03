@@ -1,0 +1,31 @@
+.project-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.display {
+  margin-bottom: 200px;
+}
+
+.display h3 {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.display p {
+  font-weight: 100;
+  line-height: 75%;
+}
+
+.card {
+  width: 25%;
+  text-align: center;
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
