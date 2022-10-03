@@ -11,7 +11,6 @@ export default function Page(props) {
     const renderPage = () => {
         switch (props.currentPage.name) {
             case "about":
-                console.log("props.currentPage.name here", props);
                 return <About setCurrentPage={props.setCurrentPage} />;
             case "portfolio":
                 return <Portfolio />;

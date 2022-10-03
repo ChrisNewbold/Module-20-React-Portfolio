@@ -28,12 +28,6 @@
     hsl(0 0% 0% / 10)
   ) !important;
 }
-.profile-card-title {
-  color: --tertiary;
-  position: relative;
-  padding-bottom: 20px;
-  width: max-content;
-}
 /* section body color fade in */
 .profile-card-body {
   color: --tertiary;
@@ -55,6 +49,10 @@
 .profile-card:hover .profile-card-title::after,
 .profile-card:focus-within .profile-card-title::after {
   transform: scaleX(1) !important;
+}
+
+.aboutlink {
+  color: var(--tertiary) !important;
 }
 
 @media screen and (max-width: 900px) {
@@ -92,5 +90,17 @@
   }
   .profile-card-title::after {
     transform: scaleX(0) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition-delay: 0ms !important;
   }
 }

@@ -21,13 +21,13 @@ a:hover {
 }
 
 .project-image {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .project-image img {
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .backgroundImage {
@@ -50,7 +50,6 @@ a:hover {
 }
 
 .card {
-  align-content: center;
   position: center;
   margin: auto;
   max-width: fit-content;
@@ -59,4 +58,12 @@ a:hover {
   box-shadow: 0 4px 8px 0 var(--light);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
+}
+
+@media screen and (max-width: 840px) {
+  .project-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

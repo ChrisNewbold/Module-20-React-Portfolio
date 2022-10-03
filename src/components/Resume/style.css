@@ -12,14 +12,17 @@
 }
 
 .resume-top a:hover {
-  color: var(--light);
+  color: var(--secondary);
 }
 
-.resume-info {
-  padding-top: 25px;
-  padding-bottom: 10px;
-  margin-bottom: 25px;
-  text-align: left;
-  color: var(--primary);
-  border-bottom: 1px solid var(--primary);
+.proficiencies {
+  list-style: none;
+}
+
+li {
+  font-weight: normal;
+}
+
+p {
+  font-weight: normal;
 }

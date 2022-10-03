@@ -14,11 +14,10 @@ function About(props) {
                 <Box sx={{ gap: 1 }}>
                     <article className="profile-card" style={{ backgroundImage: `url(${background})` }}>
                         <div className="profile-card-content">
-                            <h3 className="profile-card-title">Fun fact about me?</h3>
                             <p id="profile-card-justification" className="profile-card-body">
-                                Apart from Graphic Design, User Experience and Full Stack Development, my other interests include Muay Thai, Brazillian Jui Jitsu and playing bass in a band!
+                                <strong>Hidden Fact:</strong> Apart from Graphic Design, User Experience and Full Stack Development, my other interests include Muay Thai, Brazillian Jui Jitsu and playing bass in a band!
                             </p>
-                            <button onClick={(e) => { clickHandler(e); }}><a href="#contact">Contact me</a></button>
+                            <button onClick={(e) => { clickHandler(e); }}><a className='aboutlink' href="#contact">Contact me</a></button>
                         </div>
                     </article>
                 </Box>
