@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css"
 
 const Project = ({ data }) => {
   return (
     <section id="portfolio" className="display">
-      <div>
+      <article className="card">
         <h3 className="project-title">{data.name}</h3>
         <p>{data.url}</p>
         <p>{data.repo}</p>
@@ -12,7 +13,7 @@ const Project = ({ data }) => {
           alt={data.name}
           key={data.name}
         />
-      </div>
+      </article>
     </section>
   );
 };

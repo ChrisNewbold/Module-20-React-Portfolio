@@ -1,10 +1,38 @@
-.display {
-  margin-top: 400px;
+section {
+  margin-top: 100px;
 }
+
+a {
+  color: var(--darker);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+a:hover {
+  color: var(--darker);
+}
+
+.project-title {
+  color: var(--darker);
+}
+
 .project-image {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.project-image img {
+  max-width: 300px;
+}
+
+.backgroundImage {
+  width: 200px;
+  height: 100px;
 }
 
 .display {
@@ -22,13 +50,13 @@
 }
 
 .card {
-  width: 25%;
-  text-align: center;
-}
-
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
+  align-content: center;
+  position: center;
+  margin: auto;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 var(--light);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
 }

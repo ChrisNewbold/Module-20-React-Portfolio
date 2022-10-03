@@ -70,9 +70,15 @@ nav ul li a::before {
   width: 0%;
   transition: all ease-in-out 250ms;
 }
+
 /* nav list over style */
 nav ul li a:hover::before {
   width: 100%;
+}
+
+.nav-active {
+  color: var(--secondary) !important;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 900px) {

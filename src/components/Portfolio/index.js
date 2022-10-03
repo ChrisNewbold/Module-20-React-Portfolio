@@ -1,11 +1,12 @@
 // import React from "react";
 import Project from "../Project/index.js";
 import "./style.css"
-
+import textEditor from "../../assets/images/portfolio/pwa-text-editor.png"
 function Portfolio(props) {
   const featurePhotos = [
     {
       name: "PWA Text Editor",
+      imgsrc: textEditor,
       feature: "pwa-text-editor",
       url: (
         <a href="https://module-19-pwa-text-editor.herokuapp.com/">

@@ -16,10 +16,7 @@ function About(props) {
                         <div className="profile-card-content">
                             <h3 className="profile-card-title">Fun fact about me?</h3>
                             <p id="profile-card-justification" className="profile-card-body">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-                                iusto error, veritatis mollitia quaerat asperiores voluptatem
-                                distinctio, dolorem esse recusandae aliquam non repellendus
-                                dolorum! Rerum distinctio modi repellendus?
+                                Apart from Graphic Design, User Experience and Full Stack Development, my other interests include Muay Thai, Brazillian Jui Jitsu and playing bass in a band!
                             </p>
                             <button onClick={(e) => { clickHandler(e); }}><a href="#contact">Contact me</a></button>
                         </div>

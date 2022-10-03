@@ -6,9 +6,11 @@
   margin-top: 150px;
   margin-bottom: 100px;
 }
+
 .resume-top a {
   color: var(--darker);
 }
+
 .resume-top a:hover {
   color: var(--light);
 }
