@@ -3,8 +3,8 @@ import "./style.css"
 
 const Project = ({ data }) => {
   return (
-    <section id="portfolio" className="display">
-      <article className="card">
+    <section className="display">
+      < article className="card" >
         <h3 className="project-title">{data.name}</h3>
         <p>{data.url}</p>
         <p className="display-image-gap">{data.repo}</p>
@@ -13,8 +13,8 @@ const Project = ({ data }) => {
           alt={data.name}
           key={data.name}
         />
-      </article>
-    </section>
+      </article >
+    </section >
   );
 };
 
