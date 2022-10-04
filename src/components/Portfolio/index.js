@@ -3,6 +3,7 @@ import Project from "../Project/index.js";
 import textEditor from "../../assets/images/portfolio/pwa-text-editor.png"
 import '../../components/Project/style.css'
 
+// Portfolio section assigning the images and info to each individual card
 function Portfolio(props) {
   const featurePhotos = [
     {
@@ -89,7 +90,7 @@ function Portfolio(props) {
       ),
     },
   ];
-
+  // returns the project file
   return (
     <div className="project-image mb-5">
       {featurePhotos.map((project) => (

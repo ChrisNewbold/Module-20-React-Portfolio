@@ -10,6 +10,8 @@ function Navigation(props) {
         currentPage
     } = props;
 
+    // navigation layout
+
     return (
         <nav>
             <ul>
@@ -29,5 +31,5 @@ function Navigation(props) {
         </nav >
     );
 };
-
+// exports file
 export default Navigation;

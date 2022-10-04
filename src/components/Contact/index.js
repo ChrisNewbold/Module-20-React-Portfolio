@@ -18,18 +18,18 @@ function Contact() {
       console.log("Submit Form", formState);
     }
   };
-
+  // form behaviour
   const handleChange = (e) => {
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
-        setErrorMessage("Your email is invalid.");
+        setErrorMessage("Your email is invalid."); // error message
       } else {
         setErrorMessage("");
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`${e.target.name} is required.`); // error message
       } else {
         setErrorMessage("");
       }
@@ -39,7 +39,7 @@ function Contact() {
       console.log("Handle Form", formState);
     }
   };
-
+  // form layout
   return (
     <section>
       <form id="contact-form" onSubmit={handleSubmit}>
@@ -75,5 +75,5 @@ function Contact() {
     </section>
   );
 }
-
+// exports file
 export default Contact;

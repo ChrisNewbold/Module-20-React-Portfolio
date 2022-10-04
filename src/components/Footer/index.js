@@ -6,6 +6,7 @@ import instagram from "../../../src/assets/images/Instagram_reversed_logo.png";
 
 export default function Footer() {
   return (
+    // footer layout
     <footer id="footer">
       <div className="social-links">
         <a href="https://github.com/ChrisNewbold?tab=repositories">

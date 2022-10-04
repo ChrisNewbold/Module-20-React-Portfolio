@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import resumepdf from "../../assets/images/Chris_Resume.pdf";
-
+// resume layout
 function Resume() {
   return (
     <section className="resume-top" id="resume">
@@ -42,5 +42,5 @@ function Resume() {
     </section>
   );
 }
-
+// exports file
 export default Resume;

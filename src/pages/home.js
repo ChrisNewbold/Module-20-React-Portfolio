@@ -7,7 +7,7 @@ import PageContent from '../components/PageContent/index.js';
 
 
 export default function Page(props) {
-
+    // switch statement (conditional) returning the page
     const renderPage = () => {
         switch (props.currentPage.name) {
             case "about":

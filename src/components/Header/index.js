@@ -4,6 +4,7 @@ import Page from "../../pages/home";
 import "./style.css";
 import Grid from '@mui/material/Grid';
 import Box from "@mui/material/Box";
+
 export default function Header(props) {
   // const [pages] = useState([
   //   { name: "about" },
@@ -13,6 +14,8 @@ export default function Header(props) {
   // ]);
 
   // const [currentPage, setCurrentPage] = useState(pages[0]);
+
+  // header layout
   return (
     <div>
       <header><Grid container>

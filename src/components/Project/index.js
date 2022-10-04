@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css"
 
+// portfolio card layout
 const Project = ({ data }) => {
   return (
     <section className="display">
@@ -17,5 +18,5 @@ const Project = ({ data }) => {
     </section >
   );
 };
-
+// exports file
 export default Project;
