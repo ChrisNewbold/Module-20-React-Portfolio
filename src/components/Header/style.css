@@ -13,10 +13,6 @@ header {
   z-index: 1000;
 }
 
-header a {
-  color: var(--light);
-}
-
 header img {
   border-radius: 100%;
   margin-right: 7px;

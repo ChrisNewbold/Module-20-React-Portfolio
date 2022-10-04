@@ -2,22 +2,13 @@ section {
   margin-top: 100px;
 }
 
-a {
-  color: var(--darker);
-  border-radius: 5px;
+.display a {
   text-decoration: none;
   font-weight: bold;
-  padding: 2px 4px;
-  margin-left: -2px;
-  margin-right: -2px;
 }
 
-a:hover {
+.display a:hover {
   color: var(--darker);
-}
-
-.project-title {
-  color: var(--primary);
 }
 
 .project-image {
@@ -32,7 +23,7 @@ a:hover {
 }
 
 .display h3 {
-  color: var(--primary);
+  color: var(--primary) !important;
   font-weight: bold;
   margin-top: -5px;
 }
