@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Module-20-React-Portfolio/static/css/main.586df6bd.css",
-    "main.js": "/Module-20-React-Portfolio/static/js/main.ebfe1276.js",
+    "main.js": "/Module-20-React-Portfolio/static/js/main.69098597.js",
     "static/js/787.884a584e.chunk.js": "/Module-20-React-Portfolio/static/js/787.884a584e.chunk.js",
     "static/media/recipe-findr.png": "/Module-20-React-Portfolio/static/media/recipe-findr.7e5cd7d5dfc4069aab49.png",
     "static/media/pwa-text-editor.png": "/Module-20-React-Portfolio/static/media/pwa-text-editor.ff2ad3af9674769d2d3d.png",
@@ -19,11 +19,11 @@
     "static/media/glyphicons-halflings-regular.woff2": "/Module-20-React-Portfolio/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/Module-20-React-Portfolio/index.html",
     "main.586df6bd.css.map": "/Module-20-React-Portfolio/static/css/main.586df6bd.css.map",
-    "main.ebfe1276.js.map": "/Module-20-React-Portfolio/static/js/main.ebfe1276.js.map",
+    "main.69098597.js.map": "/Module-20-React-Portfolio/static/js/main.69098597.js.map",
     "787.884a584e.chunk.js.map": "/Module-20-React-Portfolio/static/js/787.884a584e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.586df6bd.css",
-    "static/js/main.ebfe1276.js"
+    "static/js/main.69098597.js"
   ]
 }
