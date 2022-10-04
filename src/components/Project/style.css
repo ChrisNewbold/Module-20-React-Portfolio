@@ -36,10 +36,6 @@ a:hover {
   height: 100px;
 }
 
-/* .display {
-  margin-bottom: 200px;
-} */
-
 .display h3 {
   color: var(--primary);
   font-weight: bold;
@@ -61,7 +57,7 @@ a:hover {
   border-radius: 5px; /* 5px rounded corners */
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 600px) {
   .project-image {
     display: flex;
     flex-wrap: wrap;
