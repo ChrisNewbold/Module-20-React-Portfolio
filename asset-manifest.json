@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Module-20-React-Portfolio/static/css/main.724551e5.css",
+    "main.css": "/Module-20-React-Portfolio/static/css/main.1b72b14e.css",
     "main.js": "/Module-20-React-Portfolio/static/js/main.ebfe1276.js",
     "static/js/787.884a584e.chunk.js": "/Module-20-React-Portfolio/static/js/787.884a584e.chunk.js",
     "static/media/recipe-findr.png": "/Module-20-React-Portfolio/static/media/recipe-findr.7e5cd7d5dfc4069aab49.png",
@@ -18,12 +18,12 @@
     "static/media/Chris-Newbold-Profile-Picture.jpg": "/Module-20-React-Portfolio/static/media/Chris-Newbold-Profile-Picture.9d5b0fd84982fc1bde36.jpg",
     "static/media/glyphicons-halflings-regular.woff2": "/Module-20-React-Portfolio/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/Module-20-React-Portfolio/index.html",
-    "main.724551e5.css.map": "/Module-20-React-Portfolio/static/css/main.724551e5.css.map",
+    "main.1b72b14e.css.map": "/Module-20-React-Portfolio/static/css/main.1b72b14e.css.map",
     "main.ebfe1276.js.map": "/Module-20-React-Portfolio/static/js/main.ebfe1276.js.map",
     "787.884a584e.chunk.js.map": "/Module-20-React-Portfolio/static/js/787.884a584e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.724551e5.css",
+    "static/css/main.1b72b14e.css",
     "static/js/main.ebfe1276.js"
   ]
 }
