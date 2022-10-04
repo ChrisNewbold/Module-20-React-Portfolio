@@ -1,7 +1,8 @@
 // import React from "react";
 import Project from "../Project/index.js";
-import "./style.css"
 import textEditor from "../../assets/images/portfolio/pwa-text-editor.png"
+import '../../components/Project/style.css'
+
 function Portfolio(props) {
   const featurePhotos = [
     {
