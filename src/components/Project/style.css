@@ -31,19 +31,19 @@ a:hover {
   max-width: 400px;
 }
 
-.backgroundImage {
-  width: 200px;
-  height: 100px;
-}
-
 .display h3 {
   color: var(--primary);
   font-weight: bold;
+  margin-top: -5px;
 }
 
 .display p {
   font-weight: 100;
   line-height: 75%;
+}
+
+.display-image-gap {
+  margin-bottom: 20px;
 }
 
 .card {

@@ -7,7 +7,7 @@ const Project = ({ data }) => {
       <article className="card">
         <h3 className="project-title">{data.name}</h3>
         <p>{data.url}</p>
-        <p>{data.repo}</p>
+        <p className="display-image-gap">{data.repo}</p>
         <img
           src={require(`../../assets/images/portfolio/${data.feature}.png`)}
           alt={data.name}
