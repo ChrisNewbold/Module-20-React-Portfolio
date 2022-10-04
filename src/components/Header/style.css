@@ -78,8 +78,7 @@ nav ul li a:hover::before {
 
 .nav-active {
   color: var(--secondary) !important;
-  text-decoration: none;
-  text-decoration-line: underline;
+  text-decoration: none !important;
 }
 
 @media screen and (max-width: 900px) {

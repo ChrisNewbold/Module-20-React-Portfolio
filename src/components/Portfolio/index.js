@@ -90,7 +90,7 @@ function Portfolio(props) {
   ];
 
   return (
-    <div className="project-image">
+    <div className="project-image mb-5">
       {featurePhotos.map((project) => (
         <Project data={project} />
       ))}

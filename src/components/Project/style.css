@@ -24,6 +24,7 @@ a:hover {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 200px;
 }
 
 .project-image img {
@@ -35,9 +36,9 @@ a:hover {
   height: 100px;
 }
 
-.display {
+/* .display {
   margin-bottom: 200px;
-}
+} */
 
 .display h3 {
   color: var(--primary);
@@ -53,7 +54,7 @@ a:hover {
   position: center;
   margin: auto;
   max-width: fit-content;
-  max-height: fit-content;
+  min-height: 100%;
   padding: 25px;
   box-shadow: 0 4px 8px 0 var(--light);
   transition: 0.3s;
