@@ -14,7 +14,7 @@ function Resume() {
         <p>
           Click{" "}
           <span>
-            <a href={resumepdf}>HERE</a>
+            <a href={resumepdf} target="_blank" rel="noreferrer">HERE</a>
           </span>{" "}
           to access a downloadable PDF version of this document.
         </p>
