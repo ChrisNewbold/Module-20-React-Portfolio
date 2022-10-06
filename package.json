@@ -2,7 +2,7 @@
   "name": "module-20-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chrisnewbold.github.io/Module-20-React-Portfolio/",
+  "homepage": "https://cnewbold.com",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
