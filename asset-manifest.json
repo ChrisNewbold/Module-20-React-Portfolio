@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c215cad.css",
+    "main.css": "/static/css/main.c7589201.css",
     "main.js": "/static/js/main.bcdb8799.js",
     "static/js/787.884a584e.chunk.js": "/static/js/787.884a584e.chunk.js",
     "static/media/recipe-findr.png": "/static/media/recipe-findr.7e5cd7d5dfc4069aab49.png",
@@ -18,12 +18,12 @@
     "static/media/Chris-Newbold-Profile-Picture.jpg": "/static/media/Chris-Newbold-Profile-Picture.9d5b0fd84982fc1bde36.jpg",
     "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
     "index.html": "/index.html",
-    "main.2c215cad.css.map": "/static/css/main.2c215cad.css.map",
+    "main.c7589201.css.map": "/static/css/main.c7589201.css.map",
     "main.bcdb8799.js.map": "/static/js/main.bcdb8799.js.map",
     "787.884a584e.chunk.js.map": "/static/js/787.884a584e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c215cad.css",
+    "static/css/main.c7589201.css",
     "static/js/main.bcdb8799.js"
   ]
 }
