@@ -20,8 +20,7 @@ main {
   box-sizing: border-box;
 }
 
-html,
-body {
+html {
   min-height: 100%;
 }
 
@@ -34,7 +33,7 @@ body {
   letter-spacing: 0.1em;
   background: var(--dark);
   color: var(--light);
-  font-family: "Barlow Condensed", sans-serif, "Montserrat", sans-serif;
+  font-family: "Barlow Condensed", sans-serif, "Montserrat", sans-serif !important;
 }
 
 button {

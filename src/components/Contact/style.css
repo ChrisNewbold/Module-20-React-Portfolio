@@ -3,6 +3,7 @@ form {
   margin: 0 auto;
   text-align: center;
   margin-top: 200px;
+  margin-bottom: 100px;
 }
 form label {
   text-align: left;
@@ -38,4 +39,11 @@ textarea {
 
 .error-message {
   color: var(--error);
+}
+@media screen and (max-width: 600px) {
+  form {
+    max-width: 400px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+  }
 }
